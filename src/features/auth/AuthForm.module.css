@@ -1,0 +1,33 @@
+.container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.authBlock {
+  background-color: #262626;
+  min-height: 380px;
+  width: 580px;
+  border: 2px solid #515151;
+  border-radius: 8px;
+  top: 0;
+  position: sticky;
+}
+
+
+.loadingIcon {
+  -webkit-animation: spin 1s linear infinite;
+  -moz-animation: spin 1s linear infinite;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(359deg);
+  }
+}
